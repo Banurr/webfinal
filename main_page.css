@@ -9,12 +9,11 @@
 }
 body
 {
-    margin-top : 0;
-    margin-left : 0;
-    margin-right : 0;
+    margin: 0;
 }
 #logo
 {
+    cursor: pointer;
     margin-left : 10%;
     rotate: 25deg;
     margin-top: auto;
@@ -76,8 +75,6 @@ body
 {
     background-color: grey;
     background-blend-mode: darken;
-    width : 100%;
-    position: absolute;
     background-size: cover;
     height : 900px;
     background-image: url("Nurbol images/mountain.jpg");
@@ -96,6 +93,7 @@ body
 }
 #tat
 {
+    padding-top : 200px;
     height : 700px;
     width : 62%;
     margin : auto auto
@@ -130,6 +128,71 @@ body
     float: right;
     width : 20%;
     height : 40%;
+}
+#double
+{
+    display: flex;
+    height : 900px;
+}
+#island
+{
+    object-fit: cover;
+    width : 45%;
+    height : 100%;
+}
+#text
+{
+    width : 80%;
+    height : 85%;
+    padding-top : 100px;
+    padding-left : 60px;
+}
+#part
+{
+    display: block;
+    width : 55%;
+    background-color: rgb(20,130,132);
+}
+#text > h1
+{
+    font-weight: bolder;
+    margin: 0;
+    font-size: 40px;
+    color: rgb(232,138,7);
+}
+#text > ul
+{
+    padding-left: 22px;
+    margin-top : 10%;
+    width : 80%;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+#text li
+{
+    line-height: 30px;
+}
+#text li + li
+{
+    margin-top: 10px;
+}
+#class_hochu
+{
+    transition: all .35s ease-in-out;
+    color : white;
+    background-color: rgb(217, 46, 4);
+    font-size: 19px;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius : 40px;
+    border: none;
+    margin-top : 7%;
+    width : 25%;
+    height : 7%;
+}
+#class_hochu:hover
+{
+    background-color: rgba(0, 0, 0, 0.84);
 }
 
 
