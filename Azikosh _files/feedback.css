@@ -89,12 +89,14 @@ body {
     background-color:#ffa205;
 }
 
-#row2 {
+#row2
+{
     margin-top:-3px;
     display:flex;
 }
 
-#otzyvy {
+#otzyvy
+{
     color:black;
     width:25%;
     height:331px;
