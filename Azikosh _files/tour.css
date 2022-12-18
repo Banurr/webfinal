@@ -69,3 +69,8 @@ body {
     width:48px;
     height:48px;
 }
+
+#list li:hover
+{
+    font-size: 24px;
+}
