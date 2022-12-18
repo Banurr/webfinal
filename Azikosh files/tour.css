@@ -1,0 +1,21 @@
+body {
+    margin:0;
+    font-family: 'Philosopher', sans-serif;
+}
+
+#head {
+    display:flex;
+    height:70px;
+    width:100%;
+    position:fixed;
+    background-color:rgba(0, 0, 0, 0.452);
+    z-index:1;
+}
+
+#logo {
+    cursor:pointer;
+    margin-left:10%;
+}
+
+
+
