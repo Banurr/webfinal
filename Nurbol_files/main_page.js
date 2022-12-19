@@ -16,3 +16,18 @@ function scrollToTop()
 {
     $('html, body').animate({scrollTop:0} , 'smooth');
 }
+$(document).scroll(function()
+{
+    var tt = $(this).scrollTop();
+    if (tt > 300)
+    {
+        $("#scr").fadeIn();
+    } else
+    {
+        $("#scr").fadeOut();
+    }
+});
+function totherules()
+{
+    window.open("../Nurbol_files/PolicyPrivacy.html", '_blank');
+}

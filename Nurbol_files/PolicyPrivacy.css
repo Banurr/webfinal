@@ -1,0 +1,19 @@
+h1
+{
+    font-family: 'Philosopher', sans-serif;
+    line-height: 50px;
+    font-size: 50px;
+}
+#nachalo
+{
+    margin : auto auto;
+    width : 70%;
+    text-align: center;
+}
+#rules
+{
+    font-size: 30px;
+    width : 70%;
+    margin : 150px auto 0 auto;
+    text-align: left;
+}
