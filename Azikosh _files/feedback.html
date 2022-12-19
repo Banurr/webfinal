@@ -7,6 +7,7 @@
     <title>Feedback</title>
     <link rel="stylesheet" href="feedback.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 <body>
     <div id = "head">
@@ -59,13 +60,13 @@
                             </div>
                         </div>
         
-                        <div id="p2">
+                        <div id = "p2">
                             <div id = "img2">
                                 <img src="src/Kuanyshbek agay.jpg">
                             </div>
                         </div>
         
-                        <div id="p3">
+                        <div id = "p3">
                             <div id = "img3">
                                 <img src="src/Nurzhan agay.jpg">
                             </div>
@@ -74,8 +75,16 @@
                 </div>
             </div>
         </div>
-        <script src="../Nurbol_files/main_page.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-        <script src="feedback.js"></script>
+
+        <div id = "ending">
+            <div id = "end_text">
+            <p style = "font-size:45px; color: #FFFFFF; margin:0 ; padding:0">DAN TOURS</p>
+            <p id = "policy"><span onclick="totherules()">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</span>И ПУБЛИЧНАЯ ОФЕРТА</p>
+            </div>
+        </div>
+
+        <img src = "Nurbol%20images/up.png" title = "Подняться наверх" alt = "ppp" id = "scr" onclick = "scrollToTop()">
+        <script src = "../Nurbol_files/main_page.js"></script>
+        <script src = "feedback.js"></script>
 </body>
 </html>
