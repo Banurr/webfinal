@@ -79,21 +79,40 @@ body {
     display:flex;
 }
 
+#row2 {
+    margin-top:-3px;
+    display:flex;
+}
+
 #chto {
     color:black;
     background-color:#ffa205;
+    padding-left:16%;
+    padding-right:10%;
+    padding-top:5%;
+    padding-bottom:5%;
+    height:450px;
+    width:719px;
+    cursor:context-menu;
+    box-sizing:border-box;
 }
 
-#yout {
-    position:relative;
-}
-
-#otzyvy
-{
+#otzyvy{
     color:black;
     background-color:#94d2bd;
+    width:719px;
+    height:450px;
+    padding-right:10%;
+    padding-left:16%;
+    padding-top:8%;
+    padding-bottom:5%;
+    box-sizing:border-box;
 }
 
 #persons {
+    position:absolute;
+    left:719px;
     background-color:#bb3e03;
+    height:450px;
+    width:100%;
 }
