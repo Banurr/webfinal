@@ -3,6 +3,7 @@ function walk(element)
     var x = element.id;
     switch (x)
     {
+        case "logo" : window.location.href = "https://www.youtube.com" ; break;
         case "top_trip" : window.location.href = "https://www.youtube.com" ; break;
         case "calend" : window.location.href = "https://www.youtube.com"; break;
         case "about" : window.location.href = "https://www.youtube.com"; break;
@@ -13,6 +14,5 @@ function walk(element)
 }
 function scrollToTop()
 {
-
-    $('html, body').animate({scrollTop:0},'50');
+    $('html, body').animate({scrollTop:0});
 }
