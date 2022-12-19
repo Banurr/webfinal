@@ -19,6 +19,7 @@
     height: 500px;
     background-color: white;
     margin-left: 35%;
+    cursor: pointer;
 }
 #blog_1_div1 img{
     width: 100%;
@@ -29,6 +30,7 @@
     height: 500px;
     background-color: white;
     margin-left: 15%;
+    cursor: pointer;
 }
 #blog_1_div2 img{
     width: 100%;
@@ -82,6 +84,7 @@
     background-color: white;
     border: none;
     font-size: 50px;
+    cursor: pointer;
 }
 #blog_10_div{
     width: 52%;
@@ -113,6 +116,7 @@
     background-color: white;
     border: none;
     font-size: 50px;
+    cursor: pointer;
 }
 #blog_20_div{
     width: 52%;

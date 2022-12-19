@@ -97,6 +97,7 @@ hr{
     text-align: center;
     width: 45px;
     height: 45px;
+    cursor: pointer;
 }
 #aboutus_3_main_radius11 {
     content: "\002B";
