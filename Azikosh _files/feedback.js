@@ -5,11 +5,11 @@ function go(){
 $(document).scroll(function()
 {
     var tt = $(this).scrollTop();
-    if (tt > 4916 / 2)
+    if (tt > 300)
     {
-        $("#scr").fadeIn();
+        $("#scrr").fadeIn();
     } else
     {
-        $("#scr").fadeOut();
+        $("#scrr").fadeOut();
     }
 });

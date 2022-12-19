@@ -129,11 +129,34 @@ body {
     background-color:rgb(227, 209, 150);
 }
 
-#scr {
-    display: none;
-    right : 20px;
-    bottom : 10px;
-    position: fixed;
-    height : 7%;
-    cursor: pointer;
+#ending {
+    position:relative;
+    text-align:center;
+    bottom:0;
+    background-color:rgb(2, 29, 38);
+    height:100px;
+}
+
+#ending span {
+    cursor:pointer;
+    color:rgb(246 , 107 , 48);
+}
+
+#policy {
+    font-size:15px;
+    color:
+    #FFFFFF;
+}
+
+#ending h2 {
+    font-size:45px;
+}
+
+#scrr {
+    display:none;
+    right:20px;
+    bottom:10px;
+    position:fixed;
+    height:7%;
+    cursor:pointer;
 }
