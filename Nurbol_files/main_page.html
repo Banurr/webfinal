@@ -10,14 +10,14 @@
 </head>
 <body>
 <div id="head">
-    <img src="../Nurbol_files/Nurbol images/logo.png" alt="logo" id="logo" onclick="go()">
+    <img src="../Nurbol_files/Nurbol images/logo.png" alt="logo" id="logo" onclick="walk(this)">
         <ul id="list">
-            <li id="top_trip" onclick="go1()">туры</li>
-            <li id="calend">календарь</li>
-            <li id="about">о нас</li>
-            <li id="feedb">отзывы</li>
-            <li id="blog">блог</li>
-            <li id="tour">контакты</li>
+            <li id="top_trip" onclick="walk(this)">туры</li>
+            <li id="calend" onclick="walk(this)">календарь</li>
+            <li id="about" onclick="walk(this)">о нас</li>
+            <li id="feedb" onclick="walk(this)">отзывы</li>
+            <li id="blog" onclick="walk(this)">блог</li>
+            <li id="tour" onclick="walk(this)">контакты</li>
         </ul>
     <p id="lang_change">EN</p>
     <a href="https://instagram.com/azikuush?igshid=YmMyMTA2M2Y=" target="_blank" id="insta"><img src="../Nurbol_files/Nurbol images/instagram.png"></a>
@@ -112,6 +112,15 @@
         </td>
     </tr>
 </table>
+<div id="ending">
+    <div id="end_text" style="margin-top: auto ; margin-bottom: auto">
+    <p style="border : 2px solid white;
+    font-size: 45px;
+    color: #FFFFFF;">DAN TOURS</p>
+    <p id="policy"><span>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ </span>И ПУБЛИЧНАЯ ОФЕРТА</p>
+    </div>
+    <img src="Nurbol%20images/up.png" title="Подняться наверх" alt="ppp" id="scr" onclick="scrollToTop()">
+</div>
 <script type="text/javascript" src="main_page.js"></script>
 </body>
 </html>
