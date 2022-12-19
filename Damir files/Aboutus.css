@@ -35,7 +35,7 @@
 {
     background-color: #001219;
     width: 100%;
-    height: 370px;
+    height: 360px;
     padding-top: 100px;
 }
 #aboutus_2_check{
@@ -78,13 +78,144 @@
 #aboutus_3{
     background-color: #94d2bd;
     width: 100%;
-    height: 1000px;
-
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
-#aboutus_3 p
-{
+hr{
     margin: 0;
-    padding: 0;
+    width: 70%;
+    margin-left: 15%;
+    border: 0.5px solid white;
+    size: 1px;
 }
+.aboutus_3_main{
+    margin-left: 15%;
+}
+#aboutus_3_main_radius1{
+    border-radius: 50%;
+    background-color: rgb(10, 147, 150);
+    text-align: center;
+    width: 45px;
+    height: 45px;
+}
+#aboutus_3_main_radius11 {
+    content: "\002B";
+    color: white;
+    font-size: 40px;
+}
+#aboutus_3_main_radius2{
+    border-radius: 50%;
+    background-color: rgb(10, 147, 150);
+    text-align: center;
+    width: 45px;
+    height: 45px;
+}
+#aboutus_3_main_radius21 {
+    content: "\002B";
+    color: white;
+    font-size: 40px;
+}
+#aboutus_3_main_radius4{
+    border-radius: 50%;
+    background-color: rgb(10, 147, 150);
+    text-align: center;
+    width: 45px;
+    height: 45px;
+}
+#aboutus_3_main_radius41 {
+    content: "\002B";
+    color: white;
+    font-size: 40px;
+}
+#aboutus_3_main_radius3{
+    border-radius: 50%;
+    background-color: rgb(10, 147, 150);
+    text-align: center;
+    width: 45px;
+    height: 45px;
+}
+#aboutus_3_main_radius5{
+    border-radius: 50%;
+    background-color: rgb(10, 147, 150);
+    text-align: center;
+    width: 45px;
+    height: 45px;
+}
+#aboutus_3_main_radius51 {
+    content: "\002B";
+    color: white;
+    font-size: 40px;
+}
+#aboutus_3_main_radius6{
+    border-radius: 50%;
+    background-color: rgb(10, 147, 150);
+    text-align: center;
+    width: 45px;
+    height: 45px;
+}
+#aboutus_3_main_radius61 {
+    content: "\002B";
+    color: white;
+    font-size: 40px;
+}
+#aboutus_3_main_radius7{
+    border-radius: 50%;
+    background-color: rgb(10, 147, 150);
+    text-align: center;
+    width: 45px;
+    height: 45px;
+}
+#aboutus_3_main_radius71 {
+    content: "\002B";
+    color: white;
+    font-size: 40px;
+}
+#aboutus_3_main_radius8{
+    border-radius: 50%;
+    background-color: rgb(10, 147, 150);
+    text-align: center;
+    width: 45px;
+    height: 45px;
+}
+#aboutus_3_main_radius81 {
+    content: "\002B";
+    color: white;
+    font-size: 40px;
+}
+#aboutus_3_main_radius9{
+    border-radius: 50%;
+    background-color: rgb(10, 147, 150);
+    text-align: center;
+    width: 45px;
+    height: 45px;
+}
+#aboutus_3_main_radius91 {
+    content: "\002B";
+    color: white;
+    font-size: 40px;
+}
+#aboutus_3_main_radius31 {
+    content: "\002B";
+    color: white;
+    font-size: 40px;
+}
+.expanded{
+    width: 80%;
+    font-size: 10px;
+    display: none;
+}
+.expanded h1{
+    font-size: 17px;
+    font-family: 'Philosopher', sans-serif;
+}
+#scrr
+{
+    display: none;
+    right : 20px;
+    bottom : 10px;
+    position: fixed;
+    height : 7%;
+    cursor: pointer;
 
+}
 

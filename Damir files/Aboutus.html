@@ -3,10 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <link rel="stylesheet" href="Aboutus.css">
+    <link rel="stylesheet" href="../Nurbol_files/main_page.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
 </head>
 <body style="margin: 0">
+<div id="head" style="position: fixed">
+    <img src="../Nurbol_files/Nurbol images/logo.png" alt="logo" id="logo" onclick="walk(this)">
+    <ul id="list">
+        <li id="top_trip" onclick="walk(this)">туры</li>
+        <li id="calend" onclick="walk(this)">календарь</li>
+        <li id="about" onclick="walk(this)">о нас</li>
+        <li id="feedb" onclick="walk(this)">отзывы</li>
+        <li id="blog" onclick="walk(this)">блог</li>
+        <li id="tour" onclick="walk(this)">контакты</li>
+    </ul>
+    <p id="lang_change">EN</p>
+    <a href="https://instagram.com/azikuush?igshid=YmMyMTA2M2Y=" target="_blank" id="insta"><img src="../Nurbol_files/Nurbol images/instagram.png"></a>
+    <a href="https://t.me/Gr1zler" target="_blank" id="telega"><img src="../Nurbol_files/Nurbol images/telegram.png" alt="iii"></a>
+</div>
 <div id="aboutus_1">
 
     <img  id="aboutus_1_img" src="../Damir files/Damir images/Bald-eagle.jpg.webp" alt="go">
@@ -50,7 +66,189 @@
     </div>
 </div>
 <div id="aboutus_3">
-    <p>Что входит в стоимость тура?</p>
+    <hr>
+    <div class="aboutus_3_main">
+        <table style="width: 100%">
+            <tr>
+                <td style="width: 80%" >
+                <h1>Что входит в стоимость тура?</h1>
+                </td>
+                <td style="width: 20%">
+                <div id="aboutus_3_main_radius1" onmouseenter="spanmove(this)" onmouseleave="spanleave(this)" onclick="expandContract(this)" >
+                    <span id="aboutus_3_main_radius11">&#43;</span>
+                </div>
+                </td>
+            </tr>
+        </table>
+            <div class="expanded" id="aboutus_3_main_radius111">
+                <h1>Стандартное наполнение тура:</h1>
+                <h1>- трансфер до отеля и туристических объектов</h1>
+                <h1>- проживания в двухместном номере отелей 4-5*. Для одноместного и семейного размещения стоимость обговаривается индивидуально.</h1>
+                <h1>- экскурсионное обслуживание</h1>
+                <h1>- завтраки и дегустации</h1>
+            </div>
+    </div>
+    <hr>
+    <div class="aboutus_3_main">
+        <table style="width: 100%">
+            <tr>
+                <td style="width: 80%">
+                    <h1>А есть скидки?</h1>
+                </td>
+                <td style="width: 20%">
+                    <div id="aboutus_3_main_radius2" onmouseenter="spanmove(this)" onmouseleave="spanleave(this)" onclick="expandContract(this)" >
+                        <span id="aboutus_3_main_radius21">&#43;</span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="expanded" id="aboutus_3_main_radius211">
+            <h1>При поездке ребенка с 2 родителями - скидка 20%</h1>
+        </div>
+    </div>
+    <hr>
+    <div class="aboutus_3_main">
+        <table style="width: 100%">
+            <tr>
+                <td style="width: 80%">
+                    <h1>Можно отправиться в путешествие с детьми?</h1>
+                </td>
+                <td style="width: 200%">
+                    <div id="aboutus_3_main_radius3" onmouseenter="spanmove(this)" onmouseleave="spanleave(this)" onclick="expandContract(this)" >
+                        <span id="aboutus_3_main_radius31">&#43;</span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="expanded" id="aboutus_3_main_radius311">
+            <h1>Мы всегда рады маленьким туристам от 10 лет. При поездке ребенка с 2 родителями - скидка 20%</h1>
+            <h1>Напишите нам, чтобы обсудить все детали.</h1>
+        </div>
+    </div>
+    <hr>
+    <div class="aboutus_3_main">
+        <table style="width: 100%">
+            <tr>
+                <td style="width: 80%">
+                    <h1>Есть ли ограничения по здоровью? Все-таки отдых активный</h1>
+                </td>
+                <td style="width: 200%">
+                    <div id="aboutus_3_main_radius4" onmouseenter="spanmove(this)" onmouseleave="spanleave(this)" onclick="expandContract(this)" >
+                        <span id="aboutus_3_main_radius41">&#43;</span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="expanded" id="aboutus_3_main_radius411">
+            <h1>Особых требований к физической подготовке нет. Будьте готовы к прогулке в течение 3-4 часов.</h1>
+        </div>
+    </div>
+    <hr>
+    <hr>
+    <div class="aboutus_3_main">
+        <table style="width: 100%">
+            <tr>
+                <td style="width: 80%">
+                    <h1>Сколько человек группа?</h1>
+                </td>
+                <td style="width: 200%">
+                    <div id="aboutus_3_main_radius5" onmouseenter="spanmove(this)" onmouseleave="spanleave(this)" onclick="expandContract(this)" >
+                        <span id="aboutus_3_main_radius51">&#43;</span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="expanded" id="aboutus_3_main_radius511">
+            <h1>На Мадейру мы отправимся группой до 15 человек. Такое небольшое количество участников создаёт ощущение комфорта и теплоты общения. Туристы обсуждают свои пожелания и проводят отдых так, как им комфортно.</h1>
+        </div>
+    </div>
+    <hr>
+    <div class="aboutus_3_main">
+        <table style="width: 100%">
+            <tr>
+                <td style="width: 80%">
+                    <h1>Я переживаю, что не впишусь в компанию.</h1>
+                </td>
+                <td style="width: 200%">
+                    <div id="aboutus_3_main_radius6" onmouseenter="spanmove(this)" onmouseleave="spanleave(this)" onclick="expandContract(this)" >
+                        <span id="aboutus_3_main_radius61">&#43;</span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="expanded" id="aboutus_3_main_radius611">
+            <h1>Мы всегда рады маленьким туристам от 10 лет. При поездке ребенка с 2 родителями - скидка 20%</h1>
+            <h1>Напишите нам, чтобы обсудить все детали.</h1>
+        </div>
+    </div>
+    <hr>
+    <hr>
+    <div class="aboutus_3_main">
+        <table style="width: 100%">
+            <tr>
+                <td style="width: 80%">
+                    <h1>По вашему опыту, какие нестандартные ситуации могут случится в туре?</h1>
+                </td>
+                <td style="width: 200%">
+                    <div id="aboutus_3_main_radius8" onmouseenter="spanmove(this)" onmouseleave="spanleave(this)" onclick="expandContract(this)" >
+                        <span id="aboutus_3_main_radius81">&#43;</span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="expanded" id="aboutus_3_main_radius811">
+            <h1>Самая неприятная ситуация - болезнь. Мы мгновенно обратимся в госпиталь. На островах есть хорошие больницы и врачи. Страховка поможет сохранить деньги за лечение.</h1>
+            <h1>И, конечно, капризы погоды. Может быть шторм или дожди, тогда прийдется менять планы и перестраивать маршрут, менять порядок экскурсий и т.д.
+                Поэтому на каждый тур у нас есть альтернативная интересная программа.</h1>
+        </div>
+    </div>
+    <hr>
+    <div class="aboutus_3_main">
+        <table style="width: 100%">
+            <tr>
+                <td style="width: 80%">
+                    <h1>Как забронировать и оплатить тур?</h1>
+                </td>
+                <td style="width: 200%">
+                    <div id="aboutus_3_main_radius9" onmouseenter="spanmove(this)" onmouseleave="spanleave(this)" onclick="expandContract(this)" >
+                        <span id="aboutus_3_main_radius91">&#43;</span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="expanded" id="aboutus_3_main_radius911">
+            <h1>Свяжитесь с организатором через What's app или форму обратной связи на сайте. Наши туры можно купить в подарок.</h1>
+        </div>
+    </div>
+    <hr>
+    <div class="aboutus_3_main">
+        <table style="width: 100%">
+            <tr>
+                <td style="width: 80%">
+                    <h1>Даёте ли вы рекомендации, где поужинать или пообедать?</h1>
+                </td>
+                <td style="width: 200%">
+                    <div id="aboutus_3_main_radius7" onmouseenter="spanmove(this)" onmouseleave="spanleave(this)" onclick="expandContract(this)" >
+                        <span id="aboutus_3_main_radius71">&#43;</span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="expanded" id="aboutus_3_main_radius711">
+            <h1>Конечно! Мы расскажем, где лучшее мясо, а где рай для вегетарианцев. Подскажем, как классно провести вечер: потусить в баре или большой компанией поиграть в игры. У нас много идей. Скучать не придётся.
+            </h1>
+        </div>
+    </div>
+    <hr>
 </div>
+<div id="ending">
+    <div id="end_text">
+        <p style="font-size: 45px;color: #FFFFFF;margin: 0 ; padding: 0">DAN TOURS</p>
+        <p id="policy"><span onclick="totherules()">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ </span>И ПУБЛИЧНАЯ ОФЕРТА</p>
+    </div>
+</div>
+<img src="../Nurbol_files/Nurbol images/up.png" title="Подняться наверх" alt="ppp" id="scrr" onclick="scrollToTop()">
+<script type="text/javascript" src="../Damir files/Aboutus.js"></script>
+<script type="text/javascript" src="../Nurbol_files/main_page.js"></script>
 </body>
 </html>
