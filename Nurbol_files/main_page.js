@@ -3,11 +3,11 @@ function walk(element)
     var x = element.id;
     switch (x)
     {
-        case "logo" : window.location.href = "https://www.youtube.com" ; break;
+        case "logo" : window.location.href = "../Nurbol_files/main_page.html" ; break;
         case "top_trip" : window.location.href = "https://www.youtube.com" ; break;
         case "calend" : window.location.href = "https://www.youtube.com"; break;
-        case "about" : window.location.href = "https://www.youtube.com"; break;
-        case "feedb" : window.location.href = "https://www.youtube.com"; break;
+        case "about" : window.location.href = "../Damir files/Aboutus.html"; break;
+        case "feedb" : window.location.href = "../Azikosh _files/feedback.html"; break;
         case "blog" : window.location.href = "https://www.youtube.com"; break;
         case "tour" : window.location.href = "https://www.youtube.com"; break;
     }
