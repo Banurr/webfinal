@@ -3,43 +3,48 @@ body
     margin: 0;
     font-family: 'Philosopher', sans-serif;
 }
-#zadni
+#starting
 {
-    vertical-align: middle;
-    background-color: rgb(1, 25, 31);
+    margin: 0;
+    height : 700px;
+    background-image: url("../Nurbol_files/Nurbol images/nature.jpg");
+    background-size: cover;
 }
 #mesyac
 {
-    padding: 0;
-    justify-content: space-evenly;
+    font-weight: bolder;
     display: flex;
-    font-size: 20px;
+    margin: 0;
+    background-color: rgb(1, 25, 31);
+    height : 80px;
+    justify-content: space-evenly;
+    font-size: 25px;
     color: white;
     list-style-type: none;
 }
 #mesyac li
 {
-    padding : 0;
+    margin-bottom: auto;
+    margin-top: auto;
+    cursor: pointer;
 }
 #parts
 {
-    margin-top: 100px;
     height : 850px;
-    background-color: rgb(1, 25, 89);;
+    background-color: rgb(20, 102, 169);;
 }
 #big_bro
 {
-    padding-top: 100px;
+    padding-top: 60px;
     justify-content: space-around;
     display: flex;
     margin: auto auto;
-    width : 60%;
+    width : 75%;
 }
 #left
 {
     color: white;
     display: block;
-
     width : 50%
 }
 #naming
@@ -58,10 +63,12 @@ body
     margin-top: 20px;
     object-fit: cover;
     width : 100%;
-    height : 300px;
+    height : 350px;
 }
 #wanted
 {
+    cursor: pointer;
+    transition: all .25s ease-in-out;
     font-size: 17px;
     font-weight: bolder;
     border: none;
@@ -70,6 +77,10 @@ body
     height : 9%;
     color: white;
     background-color: #001219;
+}
+#wanted:hover
+{
+    background-color: #ffa205;
 }
 #right h1
 {
@@ -80,13 +91,13 @@ body
 {
     font-weight: lighter;
     display: inline;
-    font-size: 20px;
-    width : 75%;
+    font-size: 23px;
+    width : 100%;
     list-style-type: none;
 }
 #descr li
 {
-    line-height: 20px;
+    line-height: 22px;
     margin: 0;
 }
 #descr li + li
