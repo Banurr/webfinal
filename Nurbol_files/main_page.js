@@ -14,5 +14,5 @@ function walk(element)
 }
 function scrollToTop()
 {
-    $('html, body').animate({scrollTop:0});
+    $('html, body').animate({scrollTop:0} , 'smooth');
 }
