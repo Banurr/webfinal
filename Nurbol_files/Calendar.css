@@ -1,0 +1,95 @@
+body
+{
+    margin: 0;
+    font-family: 'Philosopher', sans-serif;
+}
+#zadni
+{
+    vertical-align: middle;
+    background-color: rgb(1, 25, 31);
+}
+#mesyac
+{
+    padding: 0;
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 20px;
+    color: white;
+    list-style-type: none;
+}
+#mesyac li
+{
+    padding : 0;
+}
+#parts
+{
+    margin-top: 100px;
+    height : 850px;
+    background-color: rgb(1, 25, 89);;
+}
+#big_bro
+{
+    padding-top: 100px;
+    justify-content: space-around;
+    display: flex;
+    margin: auto auto;
+    width : 60%;
+}
+#left
+{
+    color: white;
+    display: block;
+
+    width : 50%
+}
+#left h2
+{
+    height : 15%;
+    margin: 0;
+}
+#right
+{
+    color: white;
+    display: block;
+    width : 40%;
+}
+#pikcha
+{
+    margin-top: 20px;
+    object-fit: cover;
+    width : 100%;
+    height : 60%;
+}
+#wanted
+{
+    font-size: 17px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 40px;
+    width : 75%;
+    height : 9%;
+    color: white;
+    background-color: #001219;
+}
+#right h1
+{
+    margin-top: 30px;
+    color : rgb(232 , 138 , 7);
+}
+#descr
+{
+    font-weight: lighter;
+    display: inline;
+    font-size: 18px;
+    width : 75%;
+    list-style-position: inside;
+}
+#descr li
+{
+    line-height: 20px;
+    margin: 0;
+}
+#descr li + li
+{
+    margin-top: 10px;
+}
