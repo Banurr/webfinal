@@ -128,3 +128,12 @@ body {
 #card1 {
     background-color:rgb(227, 209, 150);
 }
+
+#scr {
+    display: none;
+    right : 20px;
+    bottom : 10px;
+    position: fixed;
+    height : 7%;
+    cursor: pointer;
+}
