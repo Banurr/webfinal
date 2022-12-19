@@ -124,3 +124,7 @@ body {
 #img1 > img, #img2 > img, #img3 > img {
     width:200px;
 }
+
+#card1 {
+    background-color:rgb(227, 209, 150);
+}
