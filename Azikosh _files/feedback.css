@@ -111,30 +111,14 @@ body {
 }
 
 #persons {
-    position:absolute;
     left:719px;
     background-color:#bb3e03;
     height:450px;
     width:100%;
 }
 
-#scroll {
-    max-width:800px;
-    margin:auto;
-}
-
-#scroller {
-    overflow-x:scroll;
-    display:flex;
-    scroll-snap-type:x mandatory;
-}
-
 #p1, #p2, #p3 {
     display:flex;
-    min-width:100%;
-    min-height:200px;
-    background-color:#EDF2F7;
-    scroll-snap-align:center;
 }
 
 #img1 > img, #img2 > img, #img3 > img {
