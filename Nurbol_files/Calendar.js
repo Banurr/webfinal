@@ -17,6 +17,8 @@ function change(element)
             document.getElementById("sev").style.display = "none";
         break;
         case "dec" :
+            document.getElementById("fif").style.display = "block";
+            document.getElementById("six").style.display = "block";
             document.getElementById("naming").innerHTML = "ДЕКАБРЬ. КРУИЗ-ТУР ЭКВАДОР И СОКРОВИЩА ГАЛАПАГОСОВ";
             document.getElementById("dates").innerHTML = "15.12.2022 – 25.12.2022";
             document.getElementById("pikcha").src = "../Nurbol_files/Nurbol images/galap.jpg";
@@ -27,7 +29,6 @@ function change(element)
             document.getElementById("fou").innerHTML = "Озеро Килотоа, расположенном в кратере вулкана";
             document.getElementById("fif").innerHTML = "Водопад Пайлон-дель-Дьабло высотой около 90м, рафтинг для желающих, уровень 3+ и 4";
             document.getElementById("six").innerHTML = "Поедем на каное в национальный парк Ясную на 3 дня. Включает ночную прогулку!";
-            document.getElementById("sev").innerHTML = "4 или 8 дневный круиз по национальному парку на Галапагосских островах - невероятные впечатления и купание с морскими котиками, черепахами и акулами.";
         break;
         case "fev" :
             document.getElementById("naming").innerHTML = "ФЕВРАЛЬ. ТУР ПО МЕКСИКЕ ПЛАНЕТА КИТОВ";
@@ -56,6 +57,8 @@ function change(element)
             document.getElementById("sev").style.display = "none";
         break;
         case "may" :
+            document.getElementById("fif").style.display = "block";
+            document.getElementById("six").style.display = "block";
             document.getElementById("naming").innerHTML = "МАЙ. САФАРИ-ТУР \"ЧУДЕСА НАМИБИИ И ВОДОПАД ВИКТОРИЯ\"";
             document.getElementById("dates").innerHTML = "1-12 МАЯ 2023";
             document.getElementById("pikcha").src = "../Nurbol_files/Nurbol images/waterfall.jpg";
