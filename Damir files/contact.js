@@ -48,6 +48,7 @@ function dodo(name , pochta , telefon)
             error : function ()
             {
                 console.log("error");
+                alert("wdwfdsfsdf");
             }
         });
     }
