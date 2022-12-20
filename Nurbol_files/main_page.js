@@ -31,3 +31,11 @@ function totherules()
 {
     window.open("../Nurbol_files/PolicyPrivacy.html", '_blank');
 }
+function start_trip()
+{
+    window.location.href = "../Nurbol_files/Calendar.html";
+}
+function tothecon()
+{
+    window.location.href = "../Damir files/contact.html";
+}
