@@ -4,6 +4,11 @@ function change(element)
     switch (qq)
     {
         case "okt" :
+            document.getElementById("okt").style.color = "#ffa205";
+            document.getElementById("dec").style.color = "#FFFFFF";
+            document.getElementById("fev").style.color = "#FFFFFF";
+            document.getElementById("apr").style.color = "#FFFFFF";
+            document.getElementById("may").style.color = "#FFFFFF";
             document.getElementById("naming").innerHTML = "ОКТЯБРЬ. ТУР АЗОРЫ - ЕВРОПЕЙСКИЙ «ЗАТЕРЯННЫЙ МИР ИЛИ «ТАИНСТВЕННЫЕ ОСТРОВА»";
             document.getElementById("dates").innerHTML = "15.10.2022 – 26.10.2022";
             document.getElementById("pikcha").src = "../Nurbol_files/Nurbol images/azore.jpg";
@@ -17,6 +22,11 @@ function change(element)
             document.getElementById("sev").style.display = "none";
         break;
         case "dec" :
+            document.getElementById("dec").style.color = "#ffa205";
+            document.getElementById("okt").style.color = "#FFFFFF";
+            document.getElementById("fev").style.color = "#FFFFFF";
+            document.getElementById("apr").style.color = "#FFFFFF";
+            document.getElementById("may").style.color = "#FFFFFF";
             document.getElementById("fif").style.display = "block";
             document.getElementById("six").style.display = "block";
             document.getElementById("naming").innerHTML = "ДЕКАБРЬ. КРУИЗ-ТУР ЭКВАДОР И СОКРОВИЩА ГАЛАПАГОСОВ";
@@ -31,6 +41,11 @@ function change(element)
             document.getElementById("six").innerHTML = "Поедем на каное в национальный парк Ясную на 3 дня. Включает ночную прогулку!";
         break;
         case "fev" :
+            document.getElementById("fev").style.color = "#ffa205";
+            document.getElementById("dec").style.color = "#FFFFFF";
+            document.getElementById("okt").style.color = "#FFFFFF";
+            document.getElementById("may").style.color = "#FFFFFF";
+            document.getElementById("apr").style.color = "#FFFFFF";
             document.getElementById("naming").innerHTML = "ФЕВРАЛЬ. ТУР ПО МЕКСИКЕ ПЛАНЕТА КИТОВ";
             document.getElementById("dates").innerHTML = "17.02.2023 - 28.02.2023";
             document.getElementById("pikcha").src = "../Nurbol_files/Nurbol images/whale.jpeg";
@@ -44,6 +59,11 @@ function change(element)
             document.getElementById("sev").style.display = "none";
         break;
         case "apr" :
+            document.getElementById("apr").style.color = "#ffa205";
+            document.getElementById("dec").style.color = "#FFFFFF";
+            document.getElementById("okt").style.color = "#FFFFFF";
+            document.getElementById("may").style.color = "#FFFFFF";
+            document.getElementById("fev").style.color = "#FFFFFF";
             document.getElementById("naming").innerHTML = "АПРЕЛЬ. РАЙСКИЙ САД В ОКЕАНЕ. МАДЕЙРА С ТАТЬЯНОЙ ЛАЗАРЕВОЙ";
             document.getElementById("dates").innerHTML = "20.04.2023 - 27.04.2023";
             document.getElementById("pikcha").src = "../Nurbol_files/Nurbol images/madeira.jpg";
@@ -57,6 +77,11 @@ function change(element)
             document.getElementById("sev").style.display = "none";
         break;
         case "may" :
+            document.getElementById("may").style.color = "#ffa205";
+            document.getElementById("dec").style.color = "#FFFFFF";
+            document.getElementById("okt").style.color = "#FFFFFF";
+            document.getElementById("apr").style.color = "#FFFFFF";
+            document.getElementById("fev").style.color = "#FFFFFF";
             document.getElementById("fif").style.display = "block";
             document.getElementById("six").style.display = "block";
             document.getElementById("naming").innerHTML = "МАЙ. САФАРИ-ТУР \"ЧУДЕСА НАМИБИИ И ВОДОПАД ВИКТОРИЯ\"";

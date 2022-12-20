@@ -24,6 +24,7 @@ body
 }
 #list li
 {
+    width : 140px;
     transition: all .3s ease-in-out;
     cursor: pointer;
 }
@@ -31,16 +32,15 @@ body
 {
     font-family: 'Philosopher', sans-serif;
     text-align: center;
-    gap: 20px;
     align-items: center;
     justify-content: space-evenly;
     margin-left: 8%;
     margin-bottom: auto;
     margin-top: auto;
-    width : 700px;
+    width : 800px;
     display: flex;
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 20px;
     list-style-type: none;
 }
 #lang_change
@@ -89,7 +89,7 @@ body
 }
 #list li:hover
 {
-    font-size: 24px;
+    font-size: 27px;
 }
 #tat
 {
