@@ -88,7 +88,7 @@ body {
     flex-direction:column;
 }
 
-#div_1 {
+#div_1, #div_3, #div_5 {
     color:black;
     margin-bottom:50px;
     margin-right:250px;
@@ -101,7 +101,9 @@ body {
     padding-right:25px;
     padding-left:25px;
 }
-
+#div_2, #div_4, #div_6 {
+    display: none;
+}
 #ending {
     position:relative;
     text-align:center;
