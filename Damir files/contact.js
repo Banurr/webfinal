@@ -30,6 +30,7 @@ function dodo(name , pochta , telefon)
         return false;
     }
     if(check&&check1&&name.length>0){
+        alert("start");
         $.ajax({
             url : '../Damir files/sign.php',
             type : 'POST',
@@ -48,7 +49,7 @@ function dodo(name , pochta , telefon)
             {
                 console.log("error");
             }
-        })
+        });
     }
 
 };
