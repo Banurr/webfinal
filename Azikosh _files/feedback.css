@@ -66,8 +66,8 @@ body {
 
 #telega > img {
     margin-left:2%;
-    width:48px;
-    height:48px;
+    width:43px;
+    height:43px;
 }
 
 #list li:hover
@@ -159,4 +159,27 @@ body {
     position:fixed;
     height:7%;
     cursor:pointer;
+}
+
+#img1 > img, #img2 > img, #img3 > img {
+    object-fit:cover;
+    transition:transform 0.8s;
+    height:100%;
+}
+
+#img1:hover > img, #img2:hover > img, #img3:hover > img{
+    -ms-transform:scale(1.5);
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+
+#card1 {
+    text-align:center;
+    padding-top:10%;
+}
+
+#card2 {
+    text-align:center;
+    color:white;
+    padding-top:3%;
 }
