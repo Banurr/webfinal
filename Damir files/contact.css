@@ -18,3 +18,13 @@
     text-align: center;
     margin: auto auto;
 }
+input::placeholder{
+    font-size: 20px;
+}
+input{
+    border: 1px solid black;
+    outline: none;
+    padding-left: 20px;
+}
+
+
