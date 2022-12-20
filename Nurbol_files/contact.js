@@ -29,8 +29,8 @@ function dodo(name , pochta , telefon)
         alert("You have entered an invalid Phone Number");
         return false;
     }
-    if(check&&check1&&name.length>0) {
-        alert("start");
+    if(check&&check1&&name.length>0)
+    {
         $.ajax({
             url : 'sign.php',
             type : 'POST',
