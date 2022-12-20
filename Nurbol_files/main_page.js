@@ -9,7 +9,7 @@ function walk(element)
         case "about" : window.location.href = "../Damir files/Aboutus.html"; break;
         case "feedb" : window.location.href = "../Azikosh _files/feedback.html"; break;
         case "blog" : window.location.href = "../Damir files/blog.html"; break;
-        case "contact" : window.location.href = "../Damir files/contact.html"; break;
+        case "contact" : window.location.href = "../Nurbol_files/contact.html"; break;
     }
 }
 function scrollToTop()
