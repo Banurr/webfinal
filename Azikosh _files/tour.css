@@ -1,7 +1,7 @@
 body {
     margin:0;
     font-family: 'Philosopher', sans-serif;
-    background-color:#001219;
+    background-color:#79aabe;
 }
 
 #head {
@@ -83,3 +83,47 @@ body {
     padding:2%;
 }
 
+#zhol {
+    display:flex;
+    flex-direction:column;
+}
+
+#div_1 {
+    margin-bottom:50px;
+    margin-right:250px;
+    margin-left:250px;
+    height:400px;
+    background-size: cover;
+}
+
+#ending {
+    position:relative;
+    text-align:center;
+    bottom:0;
+    background-color:rgb(2, 29, 38);
+    height:100px;
+}
+
+#ending span {
+    cursor:pointer;
+    color:rgb(246 , 107 , 48);
+}
+
+#policy {
+    font-size:15px;
+    color:
+    #FFFFFF;
+}
+
+#ending h2 {
+    font-size:45px;
+}
+
+#scrrr {
+    display:none;
+    right:20px;
+    bottom:10px;
+    position:fixed;
+    height:7%;
+    cursor:pointer;
+}
