@@ -41,7 +41,7 @@ function dodo(name , pochta , telefon)
                 if(result === "Success!")
                 {
                     alert("You are signed in!");
-
+                    
                 }
                 else alert("Wrong input");
             },
