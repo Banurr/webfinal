@@ -13,7 +13,7 @@
         $at = $_POST['username'];
         $mail = $_POST['email'];
         $number = $_POST['phone'];
-        $sql = "insert into users(`id`,`name`,`mail`,`phone`) values (NULL,'".$at."','".$mail."','".$number."')";
+        $sql = "insert into tour(`id`,`name`,`mail`,`phone`) values (NULL,'".$at."','".$mail."','".$number."')";
         $result = mysqli_query($link , $sql);
         if($result)
         {
