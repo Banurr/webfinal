@@ -27,3 +27,9 @@ $('#div_5').hover(function(){
 }, function() {
     $(this).find("#div_6").stop( true, true ).slideUp();
 })
+
+$('#div_7').hover(function(){
+    $(this).find("#div_8").stop( true, true ).slideDown();
+}, function() {
+    $(this).find("#div_8").stop( true, true ).slideUp();
+})
