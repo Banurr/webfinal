@@ -30,8 +30,9 @@ function dodo(name , pochta , telefon)
         return false;
     }
     if(check&&check1&&name.length>0){
+        alert("start");
         $.ajax({
-            url : 'sign.php',
+            url : '../Damir files/sign.php',
             type : 'POST',
             data : {username :  name, email : pochta, phone : telefon},
             success : function (result)
@@ -40,15 +41,15 @@ function dodo(name , pochta , telefon)
                 if(result === "Success!")
                 {
                     alert("You are signed in!");
-
                 }
                 else alert("Wrong input");
             },
             error : function ()
             {
                 console.log("error");
+                alert("wdwfdsfsdf");
             }
-        })
+        });
     }
 
 };
