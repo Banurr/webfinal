@@ -32,7 +32,7 @@ function dodo(name , pochta , telefon)
     if(check&&check1&&name.length>0){
         alert("start");
         $.ajax({
-            url : '../Damir files/sign.php',
+            url : 'sign.php',
             type : 'POST',
             data : {username :  name, email : pochta, phone : telefon},
             success : function (result)
