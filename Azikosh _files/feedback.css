@@ -1,6 +1,7 @@
 body {
     margin:0;
     font-family: 'Philosopher', sans-serif;
+    background-color: #ffa205;
 }
 
 #head {
@@ -161,13 +162,13 @@ body {
     cursor:pointer;
 }
 
-#img1 > img, #img2 > img, #img3 > img {
+#img1 > img, #img2 > img {
     object-fit:cover;
     transition:transform 0.8s;
     height:100%;
 }
 
-#img1:hover > img, #img2:hover > img, #img3:hover > img{
+#img1:hover > img, #img2:hover > img {
     -ms-transform:scale(1.5);
     -webkit-transform:scale(1.5);
     transform:scale(1.5);
@@ -181,5 +182,66 @@ body {
 #card2 {
     text-align:center;
     color:white;
-    padding-top:3%;
+    padding-top:8%;
 }
+
+@media only screen and (max-width:480px) {
+    #row1, #row2 {
+        display:block;
+    }
+
+    #chto {
+        font-size:25px;
+        padding-left:15%;
+        padding-right:15%;
+        padding-top:5%;
+        padding-bottom:5%;
+        height:350px;
+        width:850px;
+        cursor:context-menu;
+        box-sizing:border-box;
+    }
+
+    #chto > h1 {
+        text-align: center;
+    }
+
+    #yout > iframe {
+        width:850px;
+        height:400px;
+    }
+
+    #otzyvy {
+        font-size:25px;
+        width:850px;
+        height:350px;
+        cursor:context-menu;
+        box-sizing:border-box;
+        padding-left:15%;
+        padding-right:15%;
+        padding-top:5%;
+        padding-bottom:5%;
+    }
+
+    #otzyvy > h1 {
+        text-align:center;
+    }
+
+    #card1 {
+        padding-top:5%;
+    }
+    
+    #card2 {
+        padding-top:1%;
+    }
+
+    #persons {
+        width:850px;
+        height:450px;
+        font-size:25px;
+    }
+
+    #img1 > img, #img2 > img, #img3 > img {
+        width:200px;
+    }
+} 
