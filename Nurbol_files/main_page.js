@@ -37,5 +37,5 @@ function start_trip()
 }
 function tothecon()
 {
-    window.location.href = "../Damir files/contact.html";
+    window.location.href = "../Nurbol_files/contact.html";
 }
