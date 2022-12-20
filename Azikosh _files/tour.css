@@ -89,18 +89,20 @@ body {
 }
 
 #div_1, #div_3, #div_5 {
-    color:black;
-    margin-bottom:50px;
+    color:#FFFFFF;
+    text-shadow: 3px 5px 6px rgb(0, 0, 0);
+    margin-bottom:70px;
     margin-right:250px;
     margin-left:250px;
     height:400px;
     background-size:cover;
-    font-size:25px;
-    padding-top:5px;
+    font-size:28px;
+    padding-top:25px;
     padding-bottom:10px;
-    padding-right:25px;
-    padding-left:25px;
+    padding-right:28px;
+    padding-left:28px;
 }
+
 #div_2, #div_4, #div_6 {
     display: none;
 }
